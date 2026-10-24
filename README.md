@@ -12,9 +12,11 @@ Q1&Q2
 - `Build/CharacterPrototype.zip`
 
 Q2 - Physics Climbing
+- `docs/PEAK_NewProps_GDD/PEAK_NewProps_GDD_V1.0.doc`
 - `docs/PEAK_NewProps_GDD/01_AI_Agent_Prompt.md`
 - `docs/PEAK_NewProps_GDD/02_AI_Setup_Codex_CLI_Skill_AGENTS.md`
 - `docs/PEAK_NewProps_GDD/03_AI_AcceptanceTests.md`
+
 
 ## 其他文件说明
 

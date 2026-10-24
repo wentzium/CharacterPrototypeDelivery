@@ -115,7 +115,7 @@ New-Item -ItemType Directory -Force $Results | Out-Null
 
 注意：这里不主动添加 `-quit`，因为运行 `-runTests` 的 Editor 通常在测试结束后自行退出；`TestArtifacts/*.xml` 和 `.log` 应实际存在并由 Agent 解析失败项。不能仅凭进程退出码断言测试通过。包内还有 `Scripts/Run-UnityTests.ps1` 供在正确路径配置后快速运行单类测试。
 
-**实际需执行的人工回归**：手持烘干机瞄准干/湿岩、连续 LMB、雨天 20s 倒计时、内外角与薄墙背面、充能后交换物品、吸盘竖墙/倒悬/转角、15→0 最后会话、E/Q/Tab/Backpack、普通攀爬与既有 Q/T 道具、Start/Pause/Resume、镜头不翻转。
+**实际需执行的人工回归**：手持吹风机瞄准干/湿岩、连续 LMB、雨天 20s 倒计时、内外角与薄墙背面、充能后交换物品、吸盘竖墙/倒悬/转角、15→0 最后会话、E/Q/Tab/Backpack、普通攀爬与既有 Q/T 道具、Start/Pause/Resume、镜头不翻转。
 
 ## 7. 推荐交付和记录格式
 
