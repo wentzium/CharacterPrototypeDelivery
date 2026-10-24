@@ -20,6 +20,7 @@ Q2 - Physics Climbing
 ## 其他文件说明
 
 docs/ClimbingTestGDD路径下所有文件为Q2 Demo本体设计文档及根据开发调试过程总结出的AI开发Prompt，用于作为新道具开发GDD的设计基础及支持文件，无需阅读
+
 docs/PEAK_NewProps_GDD/路径下其他无标序文件为AI开发支持文件，无需阅读
 
 ## 运行方式
