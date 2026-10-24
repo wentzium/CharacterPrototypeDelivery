@@ -64,7 +64,7 @@ YourUnityProject/
 └── ...
 ```
 
-**不要**再生成 `Assets/PhysicsPrototype/` 层级，也不要通过复制 `.unity`/`.prefab` 的旧版本去覆盖手动调整过的资源。`namespace PhysicsPrototype` 是代码命名空间，可保留。
+**不要**通过复制 `.unity`/`.prefab` 的旧版本去覆盖手动调整过的资源。`namespace PhysicsPrototype` 是代码命名空间，可保留。
 
 ## 4. 发给 Codex 的第一条命令
 
@@ -97,8 +97,8 @@ YourUnityProject/
 首先核实 `Packages/manifest.json` 是否已有相应 Test Framework；不存在时先按项目依赖规范启用。关闭占用**同一工程**的 Unity Editor 后运行。下面是 Windows PowerShell 示例，**路径须替换为实际 Editor 和项目路径**：
 
 ```powershell
-$UnityExe = 'C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Unity.exe' # 示例
-$Project = 'D:\UnityProjects\PhysicsPrototype'                            # 示例
+$UnityExe = 'C:\Program Files\Unity\Hub\Editor\6000.3.0f1\Editor\Unity.exe' # 示例，以项目实际情况为准
+$Project = 'D:\UnityProjects\PhysicsPrototype'                            # 示例，以项目实际情况为准
 $Results = Join-Path $Project 'TestArtifacts'
 New-Item -ItemType Directory -Force $Results | Out-Null
 
